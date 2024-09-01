@@ -1,0 +1,56 @@
+# Django and Django REST Framework
+Django==3.2.20
+djangorestframework==3.14.0
+
+# Database adapter (for PostgreSQL, if you decide to use it instead of SQLite)
+psycopg2-binary==2.9.6
+
+# For filtering in DRF
+django-filter==23.2
+
+# For handling cross-origin resource sharing
+django-cors-headers==4.1.0
+
+# For background tasks and scheduling
+celery==5.3.1
+redis==4.6.0
+django-celery-beat==2.5.0
+
+# For working with Excel files
+openpyxl==3.1.2
+pandas==2.0.3
+
+# For improved developer experience
+django-debug-toolbar==4.1.0
+
+# For environment variable management
+python-dotenv==1.0.0
+
+# For testing
+pytest==7.4.0
+pytest-django==4.5.2
+
+# For API documentation (optional, but recommended)
+drf-yasg==1.21.6
+
+# For improved security
+django-ratelimit==4.0.0
+
+# For pagination
+djangorestframework-simplejwt==5.2.2
+
+# For better performance
+django-cacheops==7.0.1
+
+# For handling timezones
+pytz==2023.3
+
+# For generating fake data (useful for testing)
+Faker==19.2.0
+
+# For linting and code formatting
+flake8==6.0.0
+black==23.7.0
+
+# For managing static files
+whitenoise==6.5.0
